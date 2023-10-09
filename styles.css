@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+@font-face {
+    font-family: Parisienne;
+    src: url(font/Parisienne-Regular.ttf);
+}
+@font-face {
+    font-family: Luxurious;
+    src: url(font/LuxuriousRoman-Regular.ttf);
+}
+header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    background: #1f1f1f;
+    position: fixed;
+    z-index: 1;
+}
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    width:30%;
+    height: 100%;
+}
+nav{
+    width:80%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+ul{
+    display: none;
+}
+.hamburgerLogo{
+    width: 20%;
+    height: 50%;
+}
+
+.intro{
+    width: 100%;
+    height: 600px;
+    background-image: url(img/bar.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.descubre{
+    font-family: Parisienne;
+    color: gold;
+    font-size: 70px;
+}
+.name{
+    font-family:Luxurious;
+    color: whitesmoke;
+    font-size: 80px;
+}
+.open{
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.conceptFoto{
+    background-image: url(img/plant.jpg);
+    width: 100vw;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.containerConcept{
+    background: #1f1f1f;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width:50%;
+    height: 80%;
+}
+
+.conceptTitle::after , .conceptTitle::before{
+    display: inline-block;
+    width: 120px;
+    border: 1px solid white;
+    content: "";
+    margin: 0 5px 5px 5px;
+    
+}
+.containerText{
+    display: flex;
+    width: 90%;
+    height: 70%;
+}
+.backgroundGalery{
+    background-image: url(img/plant2.jpg);
+    width: 100vw;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    justify-content: space-around;
+}
+.galeryPics2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.galeryPics1{
+    display: none;
+}
+.galeryPics3{
+    display: none;
+}
+
+.backgroundTable{
+    background-image: url(img/plant3.jpg);
+    width: 100vw;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu-page__box{
+    background: white;
+    height: 95%;
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bookings{
+    background-image: url(img/mesasbg.jpg);
+    width: 100vw;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.reservas::after , .reservas::before{
+    display: inline-block;
+    width: 120px;
+    border: 1px solid rgb(255, 255, 255);
+    content: "";
+    margin: 0 5px 5px 5px;
+}
+.bigbox{
+    display: flex;
+    width: 80%;
+}
+.survey{
+    display: flex;
+    flex-direction: column;
+    width:50% ;    
+}
+.mozza-bar-food-and-drinks{
+ margin-left: 10px;
+ margin-bottom: 20px;
+ width: 20%;
+ font-size: 20px;
+ font-weight: bolder;
+}
+.directionText{
+    text-align: center;
+    width: 40%;
+}
+
+.blog{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.blogTitle{
+    width: 100%;
+    height: 27px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Luxurious ;
+}
+.blogText::after , .blogText::before{
+    display: inline-block;
+    width: 120px;
+    border: 1px solid black;
+    content: "";
+    margin: 0 5px 5px 5px;
+}
+
+.blogpics{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.img1{
+    height: 300px;
+    width: 50%;
+}
+.flyer1{
+    height: 300px;
+    width: auto;
+}
+.img2{
+    height: 300px;
+    width: 50%;
+}
+.flyer2{
+    height: 300px;
+    width: auto;
+}
+.img3{
+    display: none;
+}
+.visit{
+    background-image: url(img/cake.jpg);
+    width: 100vw;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-position: center;
+    filter: grayscale(57%) brightness(24%);
+    -webkit-filter: grayscale(57%) brightness(24%);
+    -moz-filter: grayscale(57%) brightness(24%);
+}
+.come{
+    margin-top: -20px;
+    color:white;
+}
+.bottomVisit{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.map{
+    width: 5%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.phone{
+    width: 5%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.phoneNumber{
+    width: 80px;
+}
+.mail{
+    width: 5%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.followUs{
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.followUsText::after , .followUsText::before{
+    display: inline-block;
+    width: 120px;
+    border: 1px solid black;
+    content: "";
+    margin: 0 5px 5px 5px;
+}
+.siguenos{
+    width: 50%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 15%;
+}
+.facebook{
+    width: 30%;
+    border: 2px solid black;
+}
+.instagram{
+    width: 30%;
+    border: 2px solid black;
+}
+.footer{
+    width: 100vw;
+    height: 250px; 
+    background-color: rgb(230, 229, 229);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footerText{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.links{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.time{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.contact{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.rights{
+    display: flex;
+    justify-content: space-evenly;
+}
+.facebookANDinstagram{
+    width: 5%;
+    height: 20px;
+}
+.rightsText{
+    margin-left: -50px;
+}
+.textMail{
+    width: 100px;
+}
+
+@media (min-width: 576px) {
+    .logo{
+        width:30% ;
+    }
+    .logoPic{
+        width:100% ;
+    }
+    nav{
+        width:65%;
+        height: 100%;
+    }
+    .containerConcept{
+        height: 90%;
+    }
+    .conceptTitle::after , .conceptTitle::before{
+        width: 80px;  
+        
+    }
+    .followUsText::after , .followUsText::before{
+        width: 69px;
+    }
+    .blogpics{
+        display: flex;
+    }
+    
+ }
+ @media (min-width: 768px) {
+    .hamburgerLogo{
+        display: none;
+    }
+    ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height:100%;
+        width: 100%;
+        color: whitesmoke;
+    }
+    .img1{
+        height: 30vh;
+        width: 30%;
+    }
+    .img2{
+        height: 30vh;
+        width: 30%;
+    }
+    .img3{
+        height: 30vh;
+        width: 30%;
+        display: inline-block;
+ }
+ .flyer3{
+    height: 300px;
+    width: auto;
+}
+ .galeryPics1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.galeryPics3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+}
+ @media (min-width: 992px) {
+    .logo{
+        width: 20%;
+    }
+    .logoPic{
+        width: 100%;
+    }
+ }
+ @media (min-width: 1200px) {
+    .logo{
+        width: 20%;
+    }
+    .logoPic{
+        width: 100%;
+    }
+ }
